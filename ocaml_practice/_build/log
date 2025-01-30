@@ -1,0 +1,7 @@
+# dune init executable dune_trial
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /Users/michaelgathara/.cache/dune/db
+# Workspace root:
+# /Users/michaelgathara/Documents/University/UAB/Spring25/CS401-Students-Spr2025/ocaml_practice
+# Auto-detected concurrency: 8
