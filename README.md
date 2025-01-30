@@ -1,3 +1,4 @@
-# CS401-Students-Spr2025
+# CS401 Students Repo
+Find lab slides and supplemental papers/markdowns
 
-401-501 Students Repo
+- Feel free to add your own things here that you feel like students might find interesting by making a PR
