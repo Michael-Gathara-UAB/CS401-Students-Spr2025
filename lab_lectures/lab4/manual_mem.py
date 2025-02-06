@@ -44,6 +44,17 @@ def main():
     print("\nAfter manual cleanup:")
     print("Remaining objects:", list(objects.keys()))
     
+    # Remove the rest of the objects
+    del objects["object_0"]
+    del objects["object_2"]
+    del objects["object_4"]
+    
+    # Force garbage collection despite it being disabled
+    gc.collect()
+    
+    print("\nAfter manual cleanup two:")
+    print("Remaining objects:", list(objects.keys()))
+    
     # Re-enable garbage collector before program ends
     gc.enable()
     print("\nGarbage collector re-enabled:", gc.isenabled())
