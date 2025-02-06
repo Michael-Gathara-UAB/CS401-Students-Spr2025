@@ -1,6 +1,4 @@
 import gc
-import weakref
-import time
 
 # Disable garbage collector
 gc.disable()
