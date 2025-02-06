@@ -1,3 +1,7 @@
+"""
+This file showcases how to write Python code that calls the garbage collector in order to free up memory when a programmer wants it freed.
+"""
+
 import gc
 
 # Disable garbage collector
