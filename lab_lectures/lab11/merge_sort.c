@@ -1,3 +1,6 @@
+/**
+ MacOS runtime: clang -Xclang -fopenmp -L/opt/homebrew/opt/libomp/lib -I/opt/homebrew/opt/libomp/include -lomp merge_sort.c
+ */
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
